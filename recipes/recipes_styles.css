@@ -1,20 +1,49 @@
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #d45464;
+    color: #b4575c;
     text-align: center;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #687339;
+    color: #443c41;
 }
 
-img.icon {
+.icon {
     height: auto;
     width: 250px;
 }
 
-img.screenshot {
+.screenshot {
     height: auto;
     width: 500px;
+}
+
+.header {
+    display: flex;
+    gap: 50px;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.ingredients {
+    background-color: #b4575c;
+    border-radius: 25px;
+    padding: 0px 50px;
+    margin-left: 50px;
 }
