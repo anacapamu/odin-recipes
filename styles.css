@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    background: #b4575c;
+}
+
+.header_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    padding: 0px 50px;
+    color: #443c41;
+}
+
+.header_img {
+    width: 400px;
+    margin-left: auto;
+    padding-right: 100px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.subtext {
+    font-style: italic;
+}
+
+.content {
+    padding: 0px 50px;
+}
+
+h3 {
+    color: #443c41;
+}
+
+a {
+    text-decoration: none;
+    color: #443c41;
+}
